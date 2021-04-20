@@ -50,6 +50,7 @@ module.exports = {
      port: 8545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
     },
+    sandbox: {},
     rinkeby: {
       provider: () => new HDWalletProvider(
         mnemonic, `https://eth-rinkeby.alchemyapi.io/v2/${alchemyApiKey}`
